@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="72">
+    <author>Timo</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Build Anywhere</en>
+    </title>
+    <description>
+        <en><![CDATA[Change everything on ALL land, also land you do not own.
+
+- Landscaping: raise, lower, smooth, flatten and slope terrain
+- Paint terrain textures and foliage (grass, bushes, ...)
+- Plant trees and cut trees with the chainsaw
+- Place buildings, fences and other placeables
+
+Still respected: money, farm permissions, restricted zones and the shop/vehicle spawn areas.
+Works in singleplayer and multiplayer (the mod must be active on the server).]]></en>
+    </description>
+    <iconFilename>icon_buildAnywhere.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/BuildAnywhere.lua"/>
+    </extraSourceFiles>
+</modDesc>
